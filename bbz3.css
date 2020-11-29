@@ -313,55 +313,90 @@ text-align:center;
 /** responcive viewport  *** responcive viewport  ***responcive viewport  ***responcive viewport  ***/
 
 
-@media screen and (min-width:300px) and (max-width:720px) {
-header{
 
-background-color:red;
+@media screen and (min-width:560px) and (max-width:1160px) {
 
-    
-}
 .content{
     position:static;
     margin-top:5px;
 
 
 }
-.content ul li i {
+.content ul li  {
 
+    display:block;
+    width:100%;
     padding-right:8px;
+    font-size:4vw;
+}
+.content ul li i{
+    font-size:4vw;
+    margin:5px;
 
-    font-size:3vw;
+}
+
+
+
+
+}
+
+
+@media screen and (max-width:560px){
+
+
+    .content{
+        position:static;
+        margin-top:5px;
     
+    
+    }
+    .content ul li  {
+    
+        display:block;
+        width:100%;
+        padding-right:8px;
+        font-size:4vw;
+    }
+    .content ul li i{
+        font-size:4vw;
+        margin:5px;
+    
+    }
+
+    .logo img{
+        display:none;
+
+    }
+
+    .menu ul{
+        width:100%;
+        margin-left:auto;
+        margin-right:auto; 
+        position:relative;
+        left:-100px;
 
 
-}
 
-
-
-
-}
-
-@media screen and(min-width:760px) and (max-width:1040px){
-
-    header{
-
-      
-        
     }
     
+.slide-left{
 
+    float:left;
+    color:rgb(54, 44, 24);
+    background-color:rgb(66, 83, 231);
+    
+    position:relative;
+    margin-top:100px;
+    width:600px;
+    height:100%;
+    padding:20px 180px 0px 10px;
 
+    z-index:99;
+    text-align:right;
+
+    
 }
-
-
-
-@media screen and (min-width:1040px) and (max-width:1200px){
-
-    header{
-
-        
-        
-    }
+    
     
 
 
